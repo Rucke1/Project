@@ -2,6 +2,21 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
+
+.uhd-blue {
+  color: #002D72;
+}
+
+.bg-uhd-blue {
+  background-color: #002D72 !important;
+}
+
+.uhd-red {
+  color: #E4002B;
+}
+
+.bg-uhd-red {
+  background-color: #E4002B !important;
