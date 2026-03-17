@@ -14,92 +14,98 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-uhd-blue">
     <div class="container">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="form.html">Register</a></li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="form.html">Register</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
-<main class="container mt-5">
-  <h1 class="uhd-blue mb-4">Registration Form</h1>
 
-  <form method="post" action="http://randyconnolly.com/tests/process.php" class="row g-3 shadow p-4 rounded bg-light">
+  <main class="container mt-5">
+    <h1 class="uhd-blue mb-4">Registration Form</h1>
 
-    <div class="col-md-6">
-      <label class="form-label fw-bold">Full Name</label>
-      <input type="text" class="form-control" name="full_name" placeholder="Eric Ruck" required>
-    </div>
+    <form method="post" action="http://randyconnolly.com/tests/process.php" class="row g-3 shadow p-4 rounded bg-light">
 
-    <div class="col-md-6">
-      <label class="form-label fw-bold">University Email</label>
-      <input type="email" class="form-control" name="user_email" placeholder="Rucke1@gator.uhd.edu">
-    </div>
-
-    <div class="col-md-6">
-      <label class="form-label fw-bold">Secure Password</label>
-      <input type="password" class="form-control" name="user_pass">
-    </div>
-
-    <div class="col-md-6">
-      <label class="form-label fw-bold">Project Submission Date</label>
-      <input type="date" class="form-control" name="submission_date">
-    </div>
-
-    <div class="col-md-6">
-      <label class="form-label fw-bold">Primary Major</label>
-      <select class="form-select" name="major">
-        <option selected>Choose...</option>
-        <option value="MIS">MIS</option>
-        <option value="Accounting">Accounting</option>
-        <option value="Finance">Finance</option>
-      </select>
-    </div>
-
-    <div class="col-md-6">
-      <label class="form-label fw-bold">Current Credit Hours</label>
-      <input type="number" class="form-control" name="credits" min="0" max="150">
-    </div>
-
-    <div class="col-md-12">
-      <label class="form-label fw-bold">Comfort with Bootstrap (1-10)</label>
-      <input type="range" class="form-range" name="bootstrap_skill" min="1" max="10">
-    </div>
-
-    <div class="col-md-6">
-      <label class="form-label fw-bold d-block">Student Status</label>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="status" id="fulltime" value="full-time">
-        <label class="form-check-label" for="fulltime">Full-Time</label>
+      <div class="col-md-6">
+        <label class="form-label fw-bold">Full Name</label>
+        <input type="text" class="form-control" name="full_name" placeholder="Eric Ruck" required>
       </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="status" id="parttime" value="part-time">
-        <label class="form-check-label" for="parttime">Part-Time</label>
+
+      <div class="col-md-6">
+        <label class="form-label fw-bold">University Email</label>
+        <input type="email" class="form-control" name="user_email" placeholder="Rucke1@gator.uhd.edu">
       </div>
-    </div>
 
-    <div class="col-md-6">
-      <label class="form-label fw-bold d-block">Notifications</label>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="terms" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Accept Project Terms
-        </label>
+      <div class="col-md-6">
+        <label class="form-label fw-bold">Secure Password</label>
+        <input type="password" class="form-control" name="user_pass">
       </div>
-    </div>
 
-    <div class="col-12">
-      <label class="form-label fw-bold">Brief Project Description</label>
-      <textarea class="form-control" name="description" rows="3"></textarea>
-    </div>
+      <div class="col-md-6">
+        <label class="form-label fw-bold">Project Submission Date</label>
+        <input type="date" class="form-control" name="submission_date">
+      </div>
 
-    <div class="col-12 mt-4 text-center">
-      <button type="submit" class="btn bg-uhd-blue text-white px-5">Submit to Randy Connolly</button>
-    </div>
+      <div class="col-md-6">
+        <label class="form-label fw-bold">Primary Major</label>
+        <select class="form-select" name="major">
+          <option selected>Choose...</option>
+          <option value="MIS">MIS</option>
+          <option value="Accounting">Accounting</option>
+          <option value="Finance">Finance</option>
+        </select>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label fw-bold">Current Credit Hours</label>
+        <input type="number" class="form-control" name="credits" min="0" max="150">
+      </div>
+
+      <div class="col-md-12">
+        <label class="form-label fw-bold">Comfort with Bootstrap (1-10)</label>
+        <input type="range" class="form-range" name="bootstrap_skill" min="1" max="10">
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label fw-bold d-block">Student Status</label>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="status" id="fulltime" value="full-time">
+          <label class="form-check-label" for="fulltime">Full-Time</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="status" id="parttime" value="part-time">
+          <label class="form-check-label" for="parttime">Part-Time</label>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label fw-bold d-block">Notifications</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="terms" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Accept Project Terms
+          </label>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label class="form-label fw-bold">Brief Project Description</label>
+        <textarea class="form-control" name="description" rows="3"></textarea>
+      </div>
+
+      <div class="col-12 mt-4 text-center">
+        <button type="submit" class="btn bg-uhd-blue text-white px-5">Submit to Randy Connolly</button>
+      </div>
     
-  </form>
-</main>
+    </form>
+  </main>
 
 <footer class="mt-5 p-4 bg-dark text-white text-center">
   <p>&copy; 2026 MIS 3313 Group Project</p>
