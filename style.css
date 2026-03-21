@@ -20,3 +20,8 @@ h1, h2, h3 {
 
 .bg-uhd-red {
   background-color: #E4002B !important;
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
