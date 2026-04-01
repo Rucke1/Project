@@ -14,6 +14,10 @@ h1, h2, h3 {
   background-color: #002D72 !important;
 }
 
+.bg-uhd-blue:hover {
+  background-color: #001F4D !important;
+}
+
 .uhd-red {
   color: #E4002B;
 }
