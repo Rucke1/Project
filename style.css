@@ -24,10 +24,19 @@ h1, h2, h3 {
 }
 
 .bg-uhd-red:hover {
-  background-color: #b30022 !important;
+  background-color: #B30022 !important;
 }
   
 .card img {
   height: 250px;
   object-fit: cover;
+}
+
+.navbar-nav .nav-link.active {
+  color: #E4002B !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #E4002B !important;
 }
