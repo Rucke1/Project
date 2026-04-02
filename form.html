@@ -14,7 +14,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="form.html">
+      <a class="navbar-brand" href="index.html">
         <img src="uhd-logo.png" alt="UHD Logo" height="40">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -32,8 +32,8 @@
     </div>
   </nav>
 
-  <main class="container mt-5">
-    <h1 class="uhd-blue mb-4">Registration Form</h1>
+  <main class="container py-5">
+    <h1 class="uhd-blue mb-4 text-center">Registration Form</h1>
 
     <form method="post" action="http://randyconnolly.com/tests/process.php" class="row g-3 shadow p-4 rounded bg-light">
 
@@ -54,13 +54,13 @@
 
       <div class="col-md-6">
         <label class="form-label fw-bold">Project Submission Date</label>
-        <input type="date" class="form-control" name="submission_date">
+        <input type="date" class="form-control" name="submission_date" min="2026-01-01" max="2027-12-31" required>
       </div>
 
       <div class="col-md-6">
         <label class="form-label fw-bold">Primary Major</label>
-        <select class="form-select" name="major">
-          <option selected>Choose...</option>
+        <select class="form-select" name="major" required>
+          <option value="" selected disabled>Choose...</option>
           <option value="MIS">MIS</option>
           <option value="Accounting">Accounting</option>
           <option value="Finance">Finance</option>
