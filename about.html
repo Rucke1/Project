@@ -97,6 +97,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     document.getElementById('js-demo-btn').addEventListener('click', function() {
+      const btn = document.getElementById('js-demo-btn');
+      btn.disabled = true;
       document.getElementById('js-response').innerText = 'Redirecting to Contact Page...';
       setTimeout(function() {
         window.location.href = "contact.html";
