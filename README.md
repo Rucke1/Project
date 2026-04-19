@@ -21,7 +21,7 @@ The project comprises four different pages, all linked together by a global navi
 
 index.html (Home)
 
-•	Concept: This is the main landing page of the MDCOB showcase.
+•	Concept: This is the main landing page of the project.
 
 about.html (About Our Project).
 
