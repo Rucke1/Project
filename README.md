@@ -53,4 +53,6 @@ The project comprises four different pages, all linked together by a global navi
 
 •	HTML5: The pages are all valid HTML5.
 
-•	Navigation: Menu links are all functional; dummy links have the destination as the #.CSS: Bootstrap is the main framework, and all the custom styles are included in the style.css.
+•	Navigation: Menu links are all functional; dummy links have the destination as the #.
+
+•	CSS: Bootstrap is the main framework, and all the custom styles are included in the style.css.
