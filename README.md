@@ -51,6 +51,6 @@ The project comprises four different pages, all linked together by a global navi
 
 •	Action: Form data is processed via Randy Connolly for submit.
 
-•	HTML5: The pages are all valid and semantically appropriate HTML5.
+•	HTML5: The pages are all valid HTML5.
 
 •	Navigation: Menu links are all functional; dummy links have the destination as the #.CSS: Bootstrap is the main framework, and all the custom styles are included in the style.css.
