@@ -27,7 +27,7 @@ The project comprises four different pages, all linked together by a global navi
 •	Concept: This is the main landing page of the project.
 
 
-# 2) about.html (About Our Project).
+# 2) about.html (About Our Project)
 
 •	Concept: Introduces the development team and the academic background of the project.
 
