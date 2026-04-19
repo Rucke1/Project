@@ -38,6 +38,6 @@ form.html (Registration Form)
 
 •	Concept: Secure form where the users can register the project data.
 •	Technical Detail: The form consists of 10 various controls (text, email, password, date, select, number, range, radio, checkbox, textarea).
-•	Action: Form data is processed via http://www.randyconnolly.com/tests/process.php
+•	Action: Form data is processed via Randy Connolly for submit.
 •	HTML5: The pages are all valid and semantically appropriate HTML5.
 •	Navigation: Menu links are all functional; dummy links have the destination as the #.CSS: Bootstrap is the main framework, and all the custom styles are included in the style.css.
