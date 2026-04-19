@@ -5,29 +5,29 @@ Course: MIS 3313
 
 Due Date: April 26, 2026
 
-Introduction
+# Introduction
 
 The aim of this assignment is to show that it is possible to use technical documentation to develop a practical web application. The project presents a unique web site of the UHD Marilyn Davies College of Business (MDCOB), which is dedicated to the student resources and involvement.
 
 
-Design
+# Design
 
 The design theme is inspired by the University of Houston-Downtown (UHD). The project uses the university blue and red color schema.
 Stability: The UHD blue is used throughout the project by implementing an extra CSS file (style.css) to complement the Bootstrap framework.
 Responsiveness: We used the Bootstrap CSS Framework to make sure the site is responsive on all mobile, tablets and desktop devices.
 
 
-Description
+# Page Descriptions
 
 The project comprises four different pages, all linked together by a global navigation menu:
 
 
-index.html (Home)
+# 1) index.html (Home)
 
 •	Concept: This is the main landing page of the project.
 
 
-about.html (About Our Project).
+# 2) about.html (About Our Project).
 
 •	Concept: Introduces the development team and the academic background of the project.
 
@@ -36,14 +36,14 @@ about.html (About Our Project).
 •	Styles: Imagery Bootstrap Cards to arrange the profiles of team members in a responsive grid.
 
 
-contact.html (Contact Us)
+# 3) contact.html (Contact Us)
 
 •	Concept: Promotes selected course information (MIS 3313) and a call to action of the registration form.
 
 •	Styles: uses Bootstrap list-groups and button utility classes.
 
 
-form.html (Registration Form)
+# 4) form.html (Registration Form)
 
 •	Concept: Secure form where the users can register the project data.
 
