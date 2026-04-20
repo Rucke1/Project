@@ -73,3 +73,35 @@ h1, h2, h3 {
 .navbar-toggler {
   border-color: rgba(0, 45, 114, 0.1);
 }
+
+.registration-page .text-uhd-blue {
+  color: #002D72;
+}
+
+.registration-page .text-uhd-red {
+  color: #D42033;
+}
+
+.registration-page .byn-uhd {
+  background-color: #002D72;
+  color: #FFFFFF;
+  border: none;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.registration-page .btn-uhd:hover {
+  background-color: #D42033;
+  color: #FFFFFF;
+}
+
+.registration-page .card {
+  border-top: 6px solid #D42033 !important;
+}
+
+.registartion-page .form-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #495057;
+}
