@@ -51,7 +51,7 @@ The project comprises four different pages, all linked together by a global navi
 
 •	Action: Form data is processed via Randy Connolly for submit.
 
-•	HTML5: The pages are all valid HTML5.
+•	HTML5: Accepts valid HTML5.
 
 •	Navigation: Menu links are all functional; dummy links have the destination as the #.
 
