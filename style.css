@@ -34,10 +34,6 @@ h1, h2, h3 {
   background-color: #001F4D !important;
 }
 
-.navbar-nav {
-  align-items: center;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: #002D72 !important;
   font-weight: 500;
