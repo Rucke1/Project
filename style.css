@@ -34,7 +34,6 @@ h1, h2, h3 {
   background-color: #001F4D !important;
 }
 
-/* Navigation Banner Styles */
 .navbar-nav {
   align-items: center;
 }
@@ -46,7 +45,7 @@ h1, h2, h3 {
   transition: all 0.2s ease-in-out !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav {
   color: #E4002B !important;
   font-weight: bold;
   font-size: 1.3rem; 
