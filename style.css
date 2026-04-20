@@ -3,7 +3,7 @@ html, body {
   margin: 0;
 }
 
-  body {
+body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
@@ -21,9 +21,8 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.uhd-blue {
-  color: #002D72;
-}
+.uhd-blue { color: #002D72; }
+.uhd-red { color: #E4002B; }
 
 .bg-uhd-blue {
   background-color: #002D72 !important;
@@ -33,56 +32,37 @@ h1, h2, h3 {
 
 .bg-uhd-blue:hover {
   background-color: #001F4D !important;
-  color: white !important;
 }
 
-.uhd-red {
-  color: #E4002B;
-}
-
-.bg-uhd-red {
-  background-color: #E4002B !important;
-  color: white;
-}
-
-.bg-uhd-red:hover {
-  background-color: #B30022 !important;
-}
-  
-.card img {
-  height: 250px;
-  object-fit: cover;
+/* Navigation Banner Styles */
+.navbar-nav {
+  align-items: center;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #002D72 !important;
   font-weight: 500;
-  transition: none !important;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out !important;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #E4002B !important;
   font-weight: bold;
+  font-size: 1.3rem; 
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #002D72 !important;
+  color: #E4002B !important; 
   background-color: transparent !important;
 }
 
-.navbar-toggler {
-  border-color: rgba(0, 45, 114, 0.1);
-}
+.registration-page .text-uhd-blue { color: #002D72; }
+.registration-page .text-uhd-red { color: #D42033; }
 
-.registration-page .text-uhd-blue {
-  color: #002D72;
-}
-
-.registration-page .text-uhd-red {
-  color: #D42033;
-}
-
-.registration-page .byn-uhd {
+.registration-page .btn-uhd {
   background-color: #002D72;
   color: #FFFFFF;
   border: none;
@@ -100,7 +80,7 @@ h1, h2, h3 {
   border-top: 6px solid #D42033 !important;
 }
 
-.registartion-page .form-label {
+.registration-page .form-label {
   font-weight: 600;
   font-size: 0.9rem;
   color: #495057;
