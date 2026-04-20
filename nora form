@@ -22,7 +22,7 @@
 
             <main class="card shadow-sm border-0">
                <div class="card-body p-4 p-md-5">
-                  <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+                  <form method="post" action="http://randyconnolly.com/tests/process.php">
                      
                      <section class="mb-5">
                         <h2 class="h5 border-bottom pb-2 mb-4 text-uhd-red">Personal Details</h2>
