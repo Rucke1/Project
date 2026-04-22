@@ -41,6 +41,11 @@ h1, h2, h3 {
   transition: all 0.2s ease-in-out !important;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #E4002B !important; 
+  background-color: transparent !important;
+}
+
 #uhdServicesCarousel {
   max-width: 800px;
   margin: 2rem auto;
@@ -51,13 +56,12 @@ h1, h2, h3 {
   border-right: 5px solid #E4002B;
   background-color: #F8F9FA;
   overflow: hidden;
+  min-height: 220px;
 }
 
 .carousel-item {
-  display: none !important;
   padding: 0 15%;
   text-align: center;
-  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
 
 .carousel-item h3 {
@@ -70,7 +74,7 @@ h1, h2, h3 {
 .carousel-control-next-icon {
   background-color: #002D72 !important;
   border-radius: 50%;
-  opacity: 1 !important;
+  padding: 20px;
 }
 
 .carousel-indicators button {
@@ -89,27 +93,12 @@ h1, h2, h3 {
 
 @media (max-width: 576px) {
   .carousel-inner {
-    padding: 2rem !important;
+    padding: 1rem !important;
+    min-height: 280px;
   }
   .carousel-item h3 {
     font-size: 1.25rem;
   }
-}
-
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
-  display: flex !important;
-  min-height: 220px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.carousel-item.active.carousel-item-start,
-.carousel-item.active.carousel-item-end {
-  display: flex !important;
 }
 
 .card-img-top {
@@ -125,11 +114,6 @@ h1, h2, h3 {
   justify-content: center;
   padding: 1.25rem;
   flex-grow: 1;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #E4002B !important; 
-  background-color: transparent !important;
 }
 
 .registration-page .text-uhd-blue { color: #002D72; }
