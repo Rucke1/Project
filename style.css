@@ -48,14 +48,15 @@ h1, h2, h3 {
 
 .carousel-inner {
   border-left: 5px solid #002D72;
-  border-right: 5px solid #E40002B;
+  border-right: 5px solid #E4002B;
   background-color: #F8F9FA;
-  transition: transform 0.6s ease-in-out;
+  overflow: hidden;
 }
 
 .carousel-item {
-  display: none;
+  display: none !important;
   padding: 0 15%;
+  text-align: center;
 }
 
 .carousel-item h3 {
@@ -94,17 +95,20 @@ h1, h2, h3 {
   }
 }
 
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
+.carousel-item.active {
   display: flex !important;
   min-height: 220px;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
-.c
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active.carousel-item-start,
+.carousel-item.active.carousel-item-end {
+  display: flex !important;
+}
 
 .card-img-top {
     width: 100%;
