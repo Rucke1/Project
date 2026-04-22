@@ -57,6 +57,7 @@ h1, h2, h3 {
   display: none !important;
   padding: 0 15%;
   text-align: center;
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
 
 .carousel-item h3 {
@@ -95,16 +96,17 @@ h1, h2, h3 {
   }
 }
 
-.carousel-item.active {
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
   display: flex !important;
   min-height: 220px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.carousel-item-next,
-.carousel-item-prev,
 .carousel-item.active.carousel-item-start,
 .carousel-item.active.carousel-item-end {
   display: flex !important;
