@@ -86,10 +86,7 @@ h1, h2, h3 {
   opacity: 0.5;
 }
 
-.carousel-indicators .active {
-  background-color: #002D72 !important;
-  opacity: 1;
-}
+
 
 @media (max-width: 576px) {
   .carousel-inner {
