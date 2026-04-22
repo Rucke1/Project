@@ -54,10 +54,7 @@ h1, h2, h3 {
 }
 
 .carousel-item {
-  min-height: 220px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: none;
   padding: 0 15%;
 }
 
@@ -69,11 +66,9 @@ h1, h2, h3 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #002D72;
+  background-color: #002D72 !important;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  background-size: 40%;
+  opacity: 1 !important;
 }
 
 .carousel-indicators button {
@@ -98,6 +93,18 @@ h1, h2, h3 {
     font-size: 1.25rem;
   }
 }
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: flex !important;
+  min-height: 220px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.c
 
 .card-img-top {
     width: 100%;
