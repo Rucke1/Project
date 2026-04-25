@@ -21,28 +21,28 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.uhd-blue { color: #002D72; }
-.uhd-red { color: #E4002B; }
+.uhd-blue { color: #092e6e; }
+.uhd-red { color: #c60e3b; }
 
 .bg-uhd-blue {
-  background-color: #002D72 !important;
+  background-color: #092e6e !important;
   color: white !important;
   border: none !important;
 }
 
 .bg-uhd-blue:hover {
-  background-color: #001F4D !important;
+  background-color: #cdd2db !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #002D72 !important;
+  color: #092e6e !important;
   font-weight: 500;
   font-size: 1rem;
   transition: all 0.2s ease-in-out !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #E4002B !important; 
+  color: #c60e3b !important; 
   background-color: transparent !important;
 }
 
@@ -52,9 +52,9 @@ h1, h2, h3 {
 }
 
 .carousel-inner {
-  border-left: 5px solid #002D72;
-  border-right: 5px solid #E4002B;
-  background-color: #F8F9FA;
+  border-left: 5px solid #092e6e;
+  border-right: 5px solid #c60e3b;
+  background-color: #cdd2db;
   overflow: hidden;
   min-height: 220px;
 }
@@ -65,20 +65,20 @@ h1, h2, h3 {
 }
 
 .carousel-item h3 {
-  color: #002D72;
+  color: #092e6e;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #002D72 !important;
+  background-color: #092e6e !important;
   border-radius: 50%;
   padding: 20px;
 }
 
 .carousel-indicators button {
-  background-color: #E4002B !important;
+  background-color: #c60e3b !important;
   height: 4px !important;
   width: 30px !important;
   border: none !important;
@@ -113,11 +113,11 @@ h1, h2, h3 {
   flex-grow: 1;
 }
 
-.registration-page .text-uhd-blue { color: #002D72; }
-.registration-page .text-uhd-red { color: #D42033; }
+.registration-page .text-uhd-blue { color: #092e6e; }
+.registration-page .text-uhd-red { color: #c60e3b; }
 
 .registration-page .btn-uhd {
-  background-color: #002D72;
+  background-color: #092e6e;
   color: #FFFFFF;
   border: none;
   transition: background-color 0.3s ease;
@@ -126,12 +126,12 @@ h1, h2, h3 {
 }
 
 .registration-page .btn-uhd:hover {
-  background-color: #D42033;
+  background-color: #c60e3b;
   color: #FFFFFF;
 }
 
 .registration-page .card {
-  border-top: 6px solid #D42033 !important;
+  border-top: 6px solid #c60e3b !important;
 }
 
 .registration-page .form-label {
